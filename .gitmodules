@@ -1,0 +1,3 @@
+[submodule "LATEST/ref/AUTOSAR_Bsw"]
+	path = LATEST/ref/AUTOSAR_Bsw
+	url = git@github.com:NAAGRAAJ-HM/AUTOSAR_Bsw.git
