@@ -4,3 +4,6 @@
 [submodule "LATEST/ref/Rte"]
 	path = LATEST/ref/Rte
 	url = git@github.com:NAAGRAAJ-HM/Rte.git
+[submodule "LATEST/ref/Swc_Foc"]
+	path = LATEST/ref/Swc_Foc
+	url = git@github.com:NAAGRAAJ-HM/Swc_Foc.git
