@@ -7,3 +7,9 @@
 [submodule "LATEST/ref/AUTOSAR_Bsw"]
 	path = LATEST/ref/AUTOSAR_Bsw
 	url = git@github.com:NAAGRAAJ-HM/AUTOSAR_Bsw.git
+[submodule "LATEST/ref/Swc_EcuM"]
+	path = LATEST/ref/Swc_EcuM
+	url = git@github.com:NAAGRAAJ-HM/Swc_EcuM.git
+[submodule "LATEST/ref/Swc_Os"]
+	path = LATEST/ref/Swc_Os
+	url = git@github.com:NAAGRAAJ-HM/Swc_Os.git
