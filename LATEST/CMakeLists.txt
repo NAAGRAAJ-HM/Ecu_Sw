@@ -21,9 +21,7 @@ add_definitions(
 add_executable(
    Ecu_Sw.out
    ./ref/Rte/LATEST/gen/src/Rte.cpp
-   ./ref/Swc_EcuM/LATEST/src/Swc_EcuM.cpp
    ./ref/Swc_Foc/LATEST/gen/src/Swc_Foc.cpp
-   ./ref/Swc_Os/LATEST/src/Swc_Os.cpp
 )
 
 add_subdirectory(
@@ -39,13 +37,7 @@ target_include_directories(
    Ecu_Sw.out PUBLIC
    "${PROJECT_BINARY_DIR}"
    "${PROJECT_SOURCE_DIR}/ref/AUTOSAR_Bsw/LATEST"
-   "${PROJECT_SOURCE_DIR}/ref/AUTOSAR_Bsw/LATEST/ref/BswM/LATEST/inc"
-   "${PROJECT_SOURCE_DIR}/ref/AUTOSAR_Bsw/LATEST/ref/EcuM/LATEST/inc"
-   "${PROJECT_SOURCE_DIR}/ref/AUTOSAR_Bsw/LATEST/ref/Os/LATEST/inc"
-   "${PROJECT_SOURCE_DIR}/ref/AUTOSAR_Bsw/LATEST/ref/SchM/LATEST/inc"
    "${PROJECT_SOURCE_DIR}/ref/Rte/LATEST/gen/inc"
-   "${PROJECT_SOURCE_DIR}/ref/Swc_EcuM/LATEST/inc"
    "${PROJECT_SOURCE_DIR}/ref/Swc_Foc/LATEST/gen/inc"
-   "${PROJECT_SOURCE_DIR}/ref/Swc_Os/LATEST/inc"
 )
 
