@@ -7,3 +7,6 @@
 [submodule "LATEST/ref/Swc_Foc"]
 	path = LATEST/ref/Swc_Foc
 	url = git@github.com:NAAGRAAJ-HM/Swc_Foc.git
+[submodule "LATEST/ref/common"]
+	path = LATEST/ref/common
+	url = git@github.com:NAAGRAAJ-HM/common.git
