@@ -1,0 +1,12 @@
+[submodule "LATEST/AUTOSAR_Bsw"]
+	path = LATEST/AUTOSAR_Bsw
+	url = git@github.com:NAAGRAAJ-HM/AUTOSAR_Bsw.git
+[submodule "LATEST/Rte"]
+	path = LATEST/Rte
+	url = git@github.com:NAAGRAAJ-HM/Rte.git
+[submodule "LATEST/Swc_Foc"]
+	path = LATEST/Swc_Foc
+	url = git@github.com:NAAGRAAJ-HM/Swc_Foc.git
+[submodule "LATEST/common"]
+	path = LATEST/common
+	url = git@github.com:NAAGRAAJ-HM/common.git
