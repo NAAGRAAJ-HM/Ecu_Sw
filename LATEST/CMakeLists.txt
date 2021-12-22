@@ -20,12 +20,12 @@ add_definitions(
 
 add_executable(
    Ecu_Sw.out
-   ./ref/Rte/LATEST/gen/src/Rte.cpp
-   ./ref/Swc_Foc/LATEST/gen/src/Swc_Foc.cpp
+   ./Rte/LATEST/Rte.cpp
+   ./Swc_Foc/LATEST/Swc_Foc.cpp
 )
 
 add_subdirectory(
-   ref/AUTOSAR_Bsw/LATEST ref/AUTOSAR_Bsw/LATEST
+   AUTOSAR_Bsw/LATEST AUTOSAR_Bsw/LATEST
 )
 
 target_link_libraries(
@@ -36,8 +36,8 @@ target_link_libraries(
 target_include_directories(
    Ecu_Sw.out PUBLIC
    "${PROJECT_BINARY_DIR}"
-   "${PROJECT_SOURCE_DIR}/ref/AUTOSAR_Bsw/LATEST"
-   "${PROJECT_SOURCE_DIR}/ref/Rte/LATEST/gen/inc"
-   "${PROJECT_SOURCE_DIR}/ref/Swc_Foc/LATEST/gen/inc"
+   "${PROJECT_SOURCE_DIR}/AUTOSAR_Bsw/LATEST"
+   "${PROJECT_SOURCE_DIR}/Rte/LATEST"
+   "${PROJECT_SOURCE_DIR}/Swc_Foc/LATEST"
 )
 
