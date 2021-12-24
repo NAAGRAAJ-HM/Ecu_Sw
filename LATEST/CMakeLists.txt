@@ -32,10 +32,15 @@ add_subdirectory(
    AUTOSAR_Bsw/LATEST/EcuAb/LATEST AUTOSAR_Bsw/LATEST/EcuAb/LATEST
 )
 
+add_subdirectory(
+   AUTOSAR_Bsw/LATEST/EcuAb/LATEST/McAL/LATEST AUTOSAR_Bsw/LATEST/EcuAb/LATEST/McAL/LATEST
+)
+
 target_link_libraries(
    Ecu_Sw.out PUBLIC
    AUTOSAR_Bsw
    EcuAb
+   McAL
 )
 
 target_include_directories(
@@ -43,6 +48,7 @@ target_include_directories(
    "${PROJECT_BINARY_DIR}"
    "${PROJECT_SOURCE_DIR}/AUTOSAR_Bsw/LATEST"
    "${PROJECT_SOURCE_DIR}/AUTOSAR_Bsw/LATEST/EcuAb/LATEST"
+   "${PROJECT_SOURCE_DIR}/AUTOSAR_Bsw/LATEST/EcuAb/LATEST/McAL/LATEST"
    "${PROJECT_SOURCE_DIR}/Rte/LATEST"
    "${PROJECT_SOURCE_DIR}/Swc_Foc/LATEST"
 )
