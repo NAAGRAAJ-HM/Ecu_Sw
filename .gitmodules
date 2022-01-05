@@ -10,3 +10,6 @@
 [submodule "LATEST/common"]
 	path = LATEST/common
 	url = git@github.com:NAAGRAAJ-HM/common.git
+[submodule "LATEST/McAL"]
+	path = LATEST/McAL
+	url = git@github.com:NAAGRAAJ-HM/McAL.git
