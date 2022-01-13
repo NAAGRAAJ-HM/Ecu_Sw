@@ -13,3 +13,6 @@
 [submodule "LATEST/McAL"]
 	path = LATEST/McAL
 	url = git@github.com:NAAGRAAJ-HM/McAL.git
+[submodule "LATEST/EcuAb"]
+	path = LATEST/EcuAb
+	url = git@github.com:NAAGRAAJ-HM/EcuAb.git
