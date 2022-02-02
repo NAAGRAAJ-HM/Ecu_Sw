@@ -5,12 +5,12 @@ project(
    VERSION 0.1
 )
 
-SET(CMAKE_CXX_STANDARD 11)
+SET(CMAKE_CXX_STANDARD 14)
 SET(CMAKE_CXX_STANDARD_REQUIRED True)
 
 add_definitions(
    -g
-   -std=c++11
+   -std=c++14
    -Wall
    -Werror
    -Wextra
